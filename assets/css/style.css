@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-size: 16px;
+    line-height: 32px;
+    color: #333;
+    background-color: #ffffff;
+    background-image: url("../images/vertical-waves.png");
+  }
+  
+  .main-container {
+    position: relative;
+    clear: left;
+    width: 1024px;
+    margin: 0 auto 0 auto; 
+    /* margin: 20px; */
+    padding: 20px;
+    background-color: #ffffff;
+    }
+
+/* Header and nav bar */
+
+.header {
+  /* width: 660; */
+  position: relative;
+  /* border: solid 4px red; */
+  background-color: #ffffff;
+  height: 82px;
+}  
+
+.nav-container {
+  position: absolute;
+  top: 8;
+  left: 472px;
+  width: 150px;
+  height: 81px;
+  background:  #4aaaa5;
+  /* border: solid 4px blue; */
+}
+
+#jen {
+  position: absolute;
+  top: 22px;
+  left: 5px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #ffffff;
+  margin: 0 auto;
+  font-size: 26px;
+  text-align: center;
+  padding-left: 10px;
+  
+}
+
+.nav {
+  width: 130%;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  float: left;
+  /* bottom: 10px; */
+  /* right: 200px; */
+  left: 782px;
+  margin-right: 20px;
+  margin-top: 20px;
+  /* border: solid 4px blue; */
+}
+
+.clearfix :: after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+  #about-me {
+    color: #4aaaa5;
+    align-content: left;
+    padding-top: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 26px;
+    line-height: 50px;
+    border-bottom: 2px solid #cccccc; 
+  }
+
+  .about, .portfolio, .contact {
+    color: #777777;
+    background-color: #ffffff;
+    font-size: 14px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+  }
+
+   .about {
+    /* width: 10%; */
+    float: right;
+    /* display: inline-block; */
+    /*margin: 0 1.50;  */
+  }
+  
+   .portfolio {
+    /* width: 10%; */
+    float: right;
+    /* display: inline-block; */
+    /* margin: 0 1.50; */
+  }
+
+   .contact {
+    /* width: 10%; */
+    float: right;
+  }
+
+/* Content*/
+
+  section {
+  margin-bottom: 20px;
+  }
+
+  .wrapper {
+  clear: left;
+  width: 1024px;
+  margin: 0 auto 0 auto; 
+  /* margin: 20px; */
+  padding: 20px;
+  background-color: #ffffff;
+  }
+
+  a, p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  }
+  
+  .clearfix :: after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  #bio-image {
+    float: left;
+    overflow: auto;
+    width: 200px;
+    height: 200px;
+    margin-top: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+.footer {
+    clear: both;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #666666;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding-top: 20px;
+    text-align: center;
+    border-top: 6px solid #4aaaa5;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+  }
+
+   /* Use three @media screen tags, each with one of these max-widths: 
+980px, 768px and 640px. */
+
+@media screen and (max-width: 980px) {
+  .main-container {
+    width: 90%
+  }
+  .nav-container {
+    width: 100%;
+    float: none;    
+  }
+  .wrapper {
+    width: 80%;
+    margin: 20px; 
+    padding: 0px 20px 20px 20px;
+    float: none;
+    /* border: 2px solid #cccccc; */
+  }
+  .footer {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .main-container {
+    width: 90%
+  }
+  .nav-container {
+    width: 100%;
+  }
+  .wrapper {
+    width: 70%;
+    margin: 10px; 
+    padding: 0px 20px 20px 20px;
+    margin-left: 95px;
+    float: none;
+  }
+  .footer {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .main-container {
+    width: 90%
+  }
+  .nav-container {
+    width: 100%;
+  }
+  .wrapper {
+    width: 60%;
+    margin-bottom: 20px; 
+    padding: 0px 20px 20px 20px;
+    float: none;
+  }
+  .footer {
+    width: 100%;
+  }
+}
