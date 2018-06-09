@@ -156,8 +156,16 @@
     margin: 10px;
   }
   .nav-container {
+    position: static; /* to make header not take up so much space */
     width: 100%;
-    width: -20%;
+    margin-bottom: 0;
+  }
+  .header {
+    position: static;
+  }
+  #jen {
+    margin-left: 240px;
+    margin-top: 0px;
   }
   .full {
     width: 70%;
@@ -176,7 +184,16 @@
     /* overflow: hidden; */
   }
   .nav-container {
+    position: static; /* to make header not take up so much space */
     width: 100%;
+    margin-bottom: 0;
+  }
+  .header {
+    position: static;
+  }
+  #jen {
+    margin-left: 215px;
+    margin-top: 0px;
   }
   .full {
     width: 50%;

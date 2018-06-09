@@ -23,9 +23,7 @@
 /* Header and nav bar */
 
 .header {
-  /* width: 660; */
   position: relative;
-  /* border: solid 4px red; */
   background-color: #ffffff;
   height: 82px;
 }  
@@ -190,8 +188,17 @@
     width: 90%
   }
   .nav-container {
+    position: static; /* to make header not take up so much space */
     width: 100%;
+    margin-bottom: 0;
   }
+  .header {
+    position: static;
+  }
+  #jen {
+    margin-left: 240px;
+    margin-top: 20px;
+    /* border: solid 4px blue; */
   .wrapper {
     width: 70%;
     margin: 10px; 
@@ -209,7 +216,18 @@
     width: 90%
   }
   .nav-container {
+    position: static; /* to make header not take up so much space */
     width: 100%;
+    margin-bottom: 0;
+    /* border: solid 4px red; */
+  }
+  .header {
+    position: static;
+  }
+  #jen {
+    margin-left: 190px;
+    margin-top: 20px;
+    /* border: solid 4px blue; */
   }
   .wrapper {
     width: 60%;

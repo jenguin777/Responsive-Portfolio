@@ -245,6 +245,20 @@
   .nav-container {
     width: 100%;
   }
+  /* tried to make header static like on the other pages but it messed up the layout worse so I took it out */
+  /*
+  .nav-container {
+    position: static; 
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .header {
+    position: static;
+  }
+  #jen {
+    margin-left: 240px;
+    margin-top: 0px;
+  } */
   .wrapper {
     width: 100%;
     margin-bottom: 20px;
